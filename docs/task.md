@@ -1,8 +1,23 @@
 # Task
 
-- Xây dựng bộ dataset mẫu: 200-500 ảnh (640x640) cho mỗi loại lỗi (cong, vênh, thiếu chi tiết, sai màu).
+| Task  |   Person |
+| :---   |   :---: |
+| Tạo model  | Huy |
+| Viết script augmentation  |  _Anh_ |
+| Huấn luyện input dection  |  Huy |
+| Huấn luyện Assembly Verification  |  _Anh_ |
+| Dashboard     |  Huy |
+| Làm nút bấm "Reset" hoặc "Bỏ qua" | _Anh_ |
+| Trang thống kê | Huy |
+| Viết tài liệu hướng dẫn sử dụng | _Anh_ |
 
-- Thực hiện gán nhãn (Annotation): Sử dụng công cụ như LabelImg hoặc CVAT để khoanh vùng chính xác vị trí lỗi.
+- Tạo model:
+
+    - Phương án 1:
+        - Xây dựng bộ dataset mẫu: 200-500 ảnh (640x640) cho mỗi loại lỗi (cong, vênh, thiếu chi tiết, sai màu).
+
+        - Thực hiện gán nhãn (Annotation): Sử dụng công cụ như LabelImg hoặc CVAT để khoanh vùng chính xác vị trí lỗi.
+    - Phương án 2: Tìm model có sẵn
 
 - Viết script Augmentation: Tự động nhân bản ảnh bằng cách xoay, lật, thay đổi độ tương phản để làm giàu dữ liệu.
 
