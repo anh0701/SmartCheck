@@ -1,6 +1,6 @@
 # Task
 
-- Xây dựng bộ dataset mẫu: 200-500 ảnh cho mỗi loại lỗi (cong, vênh, thiếu chi tiết, sai màu).
+- Xây dựng bộ dataset mẫu: 200-500 ảnh (640x640) cho mỗi loại lỗi (cong, vênh, thiếu chi tiết, sai màu).
 
 - Thực hiện gán nhãn (Annotation): Sử dụng công cụ như LabelImg hoặc CVAT để khoanh vùng chính xác vị trí lỗi.
 
