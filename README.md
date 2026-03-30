@@ -7,3 +7,4 @@ Pre-process and Post-process Quality Inspection
 - Python 3.11.2
 - PostgreSQL
 - YOLOv8
+- CustomTkinter
