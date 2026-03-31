@@ -2,5 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 1
-names: ['capacitor']
+nc: 3
+names: ['Capacitor Electrolitico', 'Resistor Carbon-Film', 'capacitor']
+
+roboflow:
+  workspace: qis-workspace-5yjss
+  project: my-first-project-7qgjn
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/qis-workspace-5yjss/my-first-project-7qgjn/dataset/3
