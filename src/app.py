@@ -1,9 +1,11 @@
 from flask import Flask
 from controllers.image_controller import image_bp
+from db import init_db
 
 def create_app():
     app = Flask(__name__)
 
+    init_db()
     app.register_blueprint(image_bp)
 
     return app
@@ -12,4 +14,4 @@ def create_app():
 app = create_app()
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
