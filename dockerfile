@@ -3,6 +3,7 @@ FROM python:3.11.2
 WORKDIR /app
 
 # COPY src/ /app
+# COPY models/ /app/models
 
 COPY requirements.txt /app/
 RUN apt-get update && \
