@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e5e5e5;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    background: #9e9e9e;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.sidebar .active {
+    border: 2px solid #2196f3;
+}
+
+/* Main */
+.main {
+    flex: 1;
+    padding: 30px;
+}
+
+/* Monitor Box */
+.monitor {
+    padding: 20px;
+    transition: all 0.3s;
+}
+
+.monitor.green {
+    background: #39ff14;
+}
+
+.monitor.yellow {
+    background: #ffd700;
+}
+
+.monitor.red {
+    background: #ff3b3b;
+}
+
+.inner-box {
+    background: #a18888;
+    height: 200px;
+    position: relative;
+    padding: 10px;
+}
+
+.info {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #cddc39;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+/* Buttons */
+.actions {
+    margin-top: 20px;
+}
+
+.actions button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Colors */
+.yellow { background: #ffd700; }
+.orange { background: #ff9800; }
+.gray { background: #9e9e9e; }
+.green-btn { background: #00e676; }
+.blue { background: #2196f3; }
+.red { background: #f44336; }
+.cyan { background: #00bcd4; }
