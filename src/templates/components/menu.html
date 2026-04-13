@@ -1,0 +1,72 @@
+<div class="sidebar">
+    <h2>Smart Check</h2>
+
+    <a href="/src/templates/index.html" class="active">Dashboard</a>
+    <div class="menu-item">
+        <span>Training ▼</span>
+        <div class="submenu">
+            <a href="/src/templates/pages/model.html">Model</a>
+            <a href="/src/templates/pages/dataset.html">Dataset</a>
+            <a href="/src/templates/pages/training.html">Training</a>
+        </div>
+    </div>
+    <a href="/src/templates/pages/monitor.html">Monitor Run</a>
+    <a href="/src/templates/pages/report.html">Report</a>
+</div>
+
+<style>
+    .sidebar {
+        width: 200px;
+        height: 100vh;
+        background: #9e9e9e;
+        padding: 20px;
+    }
+
+    .sidebar a,
+    .menu-item>span {
+        display: block;
+        background: #d3d3d3;
+        padding: 12px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .submenu {
+        display: none;
+    }
+
+    .menu-item:hover .submenu {
+        display: block;
+    }
+
+    .submenu a {
+        background: #e8e8e8;
+        margin-bottom: 5px;
+        font-size: 14px;
+        margin-left: 15px;
+        border-left: 3px solid transparent;
+    }
+
+    .sidebar h2 {
+        margin-bottom: 20px;
+    }
+
+    .sidebar a:hover {
+        background: #c0c0c0;
+    }
+
+    .sidebar a.active {
+        border: 2px solid #2196f3;
+        background: #dcdcdc;
+    }
+
+    .submenu a:hover {
+        background: #dcdcdc;
+        border-left: 3px solid #2196f3;
+    }
+
+    
+</style>

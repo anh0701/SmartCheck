@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Model Training</title>
+    <link rel="stylesheet" href="model.css">
+    <script src="../js/components.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <app-menu></app-menu>
+
+        <!-- Main -->
+        <div class="main">
+
+            <!-- Model + Features -->
+            <div class="top-form">
+                <div class="form-row">
+                    <label>Model</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-row">
+                    <label>Features</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <!-- Hyperparameters -->
+            <div class="box">
+                <h3>Hyperparameters</h3>
+
+                <div class="param-row">
+                    <label>Epoch:</label>
+                    <input type="text">
+                </div>
+
+                <div class="param-row">
+                    <label>Learning rate:</label>
+                    <input type="text">
+                </div>
+
+                <div class="param-row">
+                    <label>Batch size:</label>
+                    <input type="text">
+                </div>
+
+                <!-- Logs -->
+                <div class="logs">
+                    Logs: Model missing ...
+                </div>
+            </div>
+
+            <!-- Bottom Buttons -->
+            <div class="bottom-actions">
+                <button class="auto">Auto</button>
+                <button class="reset">Reset</button>
+                <button class="next">Next</button>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
