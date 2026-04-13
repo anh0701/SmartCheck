@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Training Monitor</title>
+    <link rel="stylesheet" href="training.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Smart Check</h2>
+        <button>Dashboard</button>
+        <button class="active">Training</button>
+        <button>Monitor Run</button>
+        <button>Report</button>
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+
+        <div class="top-section">
+
+            <!-- Big chart / display -->
+            <div class="chart-box"></div>
+
+            <!-- Right info -->
+            <div class="info-panel">
+
+                <div class="info-box">
+                    <p>Time: <span>05:34</span></p>
+                    <p>Epoch: <span>1 / 50</span></p>
+                    <p>...</p>
+                    <p>Estimate: <span>02:34</span></p>
+                    <p>Loss: <span>0</span></p>
+                    <p>Accuracy: <span>97,68 %</span></p>
+                </div>
+
+                <div class="status-box">
+                    <p>Status:</p>
+                    <p>Idle | Training | Done | Error</p>
+                    <p>Progress: <span>80%</span></p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Logs -->
+        <div class="logs">
+            Logs: Error ...
+        </div>
+
+        <!-- Actions -->
+        <div class="actions">
+            <button class="start">Start</button>
+            <button class="pause">Pause</button>
+            <button class="stop">Stop</button>
+            <button class="retrain">Retrain</button>
+            <button class="reject">Reject</button>
+            <button class="submit">Submit</button>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

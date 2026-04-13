@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e5e5e5;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    background: #9e9e9e;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.sidebar .active {
+    border: 2px solid #2196f3;
+}
+
+/* Main */
+.main {
+    flex: 1;
+    padding: 30px;
+}
+
+/* Top form */
+.top-form {
+    border: 6px solid #a18888;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #d7ccc8;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-row label {
+    width: 100px;
+}
+
+.form-row input {
+    flex: 1;
+    padding: 8px;
+    background: #eeeeee;
+    border: none;
+}
+
+/* Box */
+.box {
+    display: flex;
+    border: 6px solid #a18888;
+    background: #eeeeee;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.left, .right {
+    width: 45%;
+}
+
+.box h3 {
+    margin-top: 0;
+}
+
+/* Logs */
+.logs {
+    margin-top: 15px;
+    padding: 15px;
+    background: #eeeeee;
+    height: 80px;
+    border: 6px solid #a18888;
+}
+
+/* Actions */
+.actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+/* Buttons */
+.actions button {
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Colors */
+.compare { background: #ffee58; }
+.export { background: #2196f3; }
+.save { background: #26c6da; }
