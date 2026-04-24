@@ -1,0 +1,18 @@
+.compare { background: #ffee58; }
+.export { background: #2196f3; }
+.save { background: #26c6da; }
+
+.yellow { background: #ffd700; }
+.orange { background: #ff9800; }
+.gray { background: #9e9e9e; }
+.green-btn { background: #00e676; }
+.blue { background: #2196f3; }
+.red { background: #f44336; }
+.cyan { background: #00bcd4; }
+
+.start { background: #4a90e2; }
+.pause { background: #ffeb3b; }
+.stop { background: #f44336; }
+.retrain { background: #fb8c00; }
+.reject { background: #9e9e9e; }
+.submit { background: #00e676; }
