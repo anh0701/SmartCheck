@@ -1,3 +1,5 @@
+@import url("/src/templates/css/btn-color.css");
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -81,7 +83,3 @@ body {
     cursor: pointer;
 }
 
-/* Colors */
-.compare { background: #ffee58; }
-.export { background: #2196f3; }
-.save { background: #26c6da; }
