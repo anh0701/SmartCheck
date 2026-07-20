@@ -6,3 +6,8 @@ POST http://127.0.0.1:5000/augment-dataset
 GET http://localhost:5000/test-db
 
 ###
+
+POST http://localhost:5000/detect
+Content-Type: multipart/form-data
+
+image=@./dataset/test/images/1k-ohm-resistor_0_jpg.rf.b01000f285ba58dc59764dbb8abd7a23.jpg
