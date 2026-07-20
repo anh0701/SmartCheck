@@ -1,5 +1,6 @@
 from flask import Flask
 from controllers.image_controller import image_bp
+from controllers.detect_controller import detect_bp
 from db import init_db
 
 def create_app():
@@ -7,7 +8,8 @@ def create_app():
 
     init_db()
     app.register_blueprint(image_bp)
-
+    app.register_blueprint(detect_bp)
+    
     return app
 
 

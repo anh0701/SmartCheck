@@ -6,3 +6,4 @@ numpy==1.26.0
 customtkinter
 psycopg2-binary
 sqlalchemy
+ultralytics
