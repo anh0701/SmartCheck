@@ -17,7 +17,7 @@ class InspectionService:
 
     def __init__(self):
 
-        self.detector = Detector("models/best.pt")
+        self.detector = Detector("model/best.pt")
 
     def inspect(
         self,
